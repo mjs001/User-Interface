@@ -48,7 +48,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+body {
     box-sizing: border-box;
 }
 
@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	border: 1px solid red !important;
+}
+
+body{
+	margin: 0px auto;
+	width: 85%;
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+header{
+	margin-top: 25px;
+}
+
+nav a{
+	text-decoration: none;
+	color: grey;
+	padding: 30px;
+}
+
+
+header nav img{
+	position: absolute;
+	display: inline;
+	vertical-align: middle;
+	left: 85%;
+	bottom: 93%;
+}
+
+header section {
+	margin-left: 50%;
+	margin-top: -100px;
+	padding-bottom: 50px;
+}
+
+header section h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+.innovation{
+	position: relative;
+    bottom: -289px;
+	left: -560px;
+}
+
+header section button{
+	position: relative;
+	left: -313px;
+	bottom: 70px;
+	font-size: 20px;
+	border: 1px solid black;
+	background: white;
+	padding: 0px 30px;
+}
+
+.upper-content{
+	font-size: 18px;
+}
+
+.bottom-content{
+	font-size: 18px;
+}
+
+.upper-content p{
+	padding-bottom: 20px;
+	
+}
+
+.features{
+	width: 40%;
+}
+
+.about{
+    margin-left: 801px;
+    width: 40%;
+	margin-top: -114px;
+}
+
+.middle-img{
+	margin-left: 207px;
+}
+
+.bottom-content{
+	display: inline-block;
+}
+
+.services{
+	width: 30%;
+	text-align: center;
+}
+
+.product{
+	width: 30%;
+	text-align: center;
+	margin-left: 467px;
+	margin-bottom: 50px;
+	margin-top: -131px;
+}
+
+.vision{
+	width: 30%;
+	text-align: center;
+	margin-left: 935px;
+	margin-top: -179px;
+}
