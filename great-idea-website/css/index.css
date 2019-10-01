@@ -64,9 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
-	border: 1px solid red !important;
-}
+
 
 body{
 	margin: 0px auto;
@@ -123,11 +121,14 @@ header section button{
 }
 
 .upper-content{
+	border-top: 1px solid black;
 	font-size: 18px;
+	padding: 25px 0px;
 }
 
 .bottom-content{
 	font-size: 18px;
+	padding: 5px 0px;
 }
 
 .upper-content p{
@@ -137,6 +138,7 @@ header section button{
 
 .features{
 	width: 40%;
+	margin-bottom: 5px;
 }
 
 .about{
@@ -171,4 +173,15 @@ header section button{
 	text-align: center;
 	margin-left: 935px;
 	margin-top: -179px;
+}
+
+.copyright{
+	margin-top: 50px;
+	margin-left: 574px;
+}
+
+footer{
+	margin-top: 150px;
+	border-top: 1px solid black;
+	padding: 60px 0px;
 }
