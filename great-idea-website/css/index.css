@@ -91,6 +91,7 @@ header nav img{
 	vertical-align: middle;
 	left: 85%;
 	bottom: 93%;
+	
 }
 
 header section {
@@ -99,8 +100,12 @@ header section {
 	padding-bottom: 50px;
 }
 
+section img{
+	margin-left: 100px;
+}
+
 header section h1{
-	font-size: 60px;
+	font-size: 80px;
 	text-align: center;
 }
 
@@ -117,7 +122,7 @@ header section button{
 	font-size: 20px;
 	border: 1px solid black;
 	background: white;
-	padding: 0px 30px;
+	padding: 5px 30px;
 }
 
 .upper-content{
@@ -148,7 +153,8 @@ header section button{
 }
 
 .middle-img{
-	margin-left: 207px;
+	width: 100%;
+	margin-left: 0px;
 }
 
 .bottom-content{
@@ -156,22 +162,19 @@ header section button{
 }
 
 .services{
-	width: 30%;
-	text-align: center;
+	width: 25%;
 }
 
 .product{
-	width: 30%;
-	text-align: center;
-	margin-left: 467px;
+	width: 25%;
+	margin-left: 501px;
 	margin-bottom: 50px;
 	margin-top: -131px;
 }
 
 .vision{
-	width: 30%;
-	text-align: center;
-	margin-left: 935px;
+	width: 25%;
+	margin-left: 1003px;
 	margin-top: -179px;
 }
 
